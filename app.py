@@ -149,7 +149,7 @@ analysis = ["Demographic Analysis", "Bacteria (Organism) Analysis", "Antibiotics
 
 # Home page
 if selected == "Home":
-    st.image("assets/resistAI_banner.png", use_column_width=True)
+    st.image("assets/resistAI_banner.png", use_container_width=True)
     st.subheader("Welcome to ResistAI")
 
     #
@@ -162,7 +162,7 @@ if selected == "Home":
     )
 
     st.subheader("Methods")
-    st.image("assets/pipeline.jpeg", use_column_width=True)
+    st.image("assets/pipeline.jpeg", use_container_width=True)
     st.markdown(
         """
     To achieve the overarching aim for the app and provide insightful and comprehensive usage, and through the use of domain knowledge, 
@@ -177,7 +177,7 @@ if selected == "Home":
     )
 
     st.subheader("Results")
-    st.image("assets/word_cloud.jpeg", use_column_width=True)
+    st.image("assets/word_cloud.jpeg", use_container_width=True)
     st.markdown(
         """
     Through rigorous analysis and modeling, ResistAI delivers precise predictions on bacterial resistance patterns, highlighting the most influential factors driving AMR. 
@@ -185,7 +185,7 @@ if selected == "Home":
     The results are presented in an easily interpretable format, allowing for quick and informed decision-making.
         """
     )
-    st.image("assets/atlas_results.png", use_column_width=True)
+    st.image("assets/atlas_results.png", use_container_width=True)
 
     st.subheader("Impact of the Work")
     st.markdown(
