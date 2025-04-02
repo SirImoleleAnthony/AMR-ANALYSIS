@@ -1153,19 +1153,19 @@ if selected == "About":
 
     # Place the images in the grid
     with col1:
-        st.image(image1, use_column_width=True)
+        st.image(image1, use_container_width=True)
 
     with col2:
-        st.image(image2, use_column_width=True)
+        st.image(image2, use_container_width=True)
 
     with col3:
-        st.image(image3, use_column_width=True)
+        st.image(image3, use_container_width=True)
 
     with col4:
-        st.image(image4, use_column_width=True)
+        st.image(image4, use_container_width=True)
 
     st.subheader("About the Competition")
-    st.image("assets/amr_logo.png", use_column_width=True)
+    st.image("assets/amr_logo.png", use_container_width=True)
     st.markdown(
         """
     The 2024 Vivli AMR Surveillance Data Challenge, funded by GARDP, Paratek, Pfizer, and Vivli, is a groundbreaking initiative aimed at harnessing the power of the Vivli AMR Register to combat antimicrobial resistance (AMR). 
@@ -1201,7 +1201,7 @@ if selected == "About":
     )
 
     st.subheader("About the Web App")
-    st.image("assets/resistAI_about_page.png", use_column_width=True)
+    st.image("assets/resistAI_about_page.png", use_container_width=True)
     st.markdown("""
     ResistAI is a robust web application designed to support researchers, healthcare professionals, and data scientists in tackling antimicrobial resistance (AMR). 
     The app provides comprehensive tools for analyzing AMR data, training predictive models, forecasting trends, and making informed predictions. 
